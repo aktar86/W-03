@@ -1,12 +1,18 @@
-const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// const person = {
+//     firstName: "John",
+//     lastName: "Doe",
+//     age: 50,
+//     eyeColor: "blue",
+// };
 
-//accessing last array element
+// person.fullName = function(){
+//     this.firstName + " " + this.lastName;
+// }
+// console.log(person)
+
+let number = '1 2 3 4 5 6 7 8 9';
+number = number.split(' ');
+number = number.join('');
 
 
-fruits.push("lemon")
-const litchi = "litchi";
-fruits.push(litchi)
-console.log(fruits)
-
-const fruit = fruits[fruits.length - 1];
-console.log(fruit)
+console.log(number)
